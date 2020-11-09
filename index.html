@@ -4,24 +4,105 @@
     <head>
         <title>My Personal Portfolio</title>
         <link rel="stylesheet" type="text/css" href="css/superslides.css">
+        <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     </head>
 
     <body>
         
         <div id="slides">
+
+            
+            <!-- Background overlay -->
+            <div class="overlay"></div>
+
+            <!-- Slider images -->
             <div class="slides-container">
               <img src="images/slide1.jpg" alt="">
               <img src="images/slide2.jpg" alt="">
               <img src="images/slide3.jpg" alt="">
             </div>
+            
+            <!-- Menu title -->
+            <div class="titleMessage">
+                <div class="heading">
+                    <p class="main">PATRICK APGAR</p>
+                    <p class="sub typed"></p>
+                </div>
+            </div>
+
+            <!-- Navigation bar -->
+            <nav class="slides-navigation">
+                <a href="#" class="next"></a>
+                <a href="#" class="prev"></a>
+            </nav>
+
         </div>
 
+        <!-- About Me section -->
+        <div id="about" class="section">
 
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img class="aboutImage" src="images/about.jpeg" alt="A picture of me standing outside in a courtyard wearing a mask">
+                    </div>
 
+                    <div class="col-md-7">
+                        <h4>My name is Patrick Apgar</h4>
+
+                        <p>
+                            Howdy! I'm Patrick Apgar from Dallas, Texas. Currently, I study at Texas A&M University as an engineering student.
+                            I have a few years of programming experience so far creating software, games and web apps for both myself as well as 
+                            others who find my work useful. My programming skills range across various languages such as Java, JavaScript, and PHP.
+                            However, my current and most favorite work as a student developer is done primarily in C and Python.
+                        </p>
+                        <p>
+                            I currently study Electronic Systems Engineering Technology here at Texas A&M, and I'm expected to graduate in Winter of 2022.
+                            Before that, however, I studied Computer Science at a local community college in Dallas, Texas and graduated with honors (4.0 GPA)
+                            and transferred to university to complete a Bachelor's Degree. I hope to also complete a minor in Cybersecurity as well as a minor in Computer Science.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills section -->
+        <div id="skills" class="skillSection section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2>TECHNICAL SKILLS</h2>
+                        <p>A visual representation of my proficiency in each skill</p>
+                    </div>
+
+                    <div class="owl-carousel owl-theme">
+                        <div class="item"><h4>1</h4></div>
+                        <div class="item"><h4>2</h4></div>
+                        <div class="item"><h4>3</h4></div>
+                        <div class="item"><h4>4</h4></div>
+                        <div class="item"><h4>5</h4></div>
+                        <div class="item"><h4>6</h4></div>
+                        <div class="item"><h4>7</h4></div>
+                        <div class="item"><h4>8</h4></div>
+                        <div class="item"><h4>9</h4></div>
+                        <div class="item"><h4>10</h4></div>
+                        <div class="item"><h4>11</h4></div>
+                        <div class="item"><h4>12</h4></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- CDNs -->
         <script src="js/jquery.superslides.min.js"></script>
+        <script src="js/jquery.easypiechart.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/typed.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="js/script.js"></script>
